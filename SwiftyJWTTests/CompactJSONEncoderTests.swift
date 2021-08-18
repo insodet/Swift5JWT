@@ -18,7 +18,7 @@ class CompactJSONEncoderTests: XCTestCase {
         let header = JWTHeader(keyId: "testId")
         let encodedHeader = try? CompactJSONEncoder.shared.encodeToString(value: header)
         let data = Data.init(base64Encoded: Base64Utils.base64StringWithPadding(encodedString: encodedHeader!))!
-        guard let dic = try? JSONSerialization.jsonObject(with: data, options: JSONSerialization.ReadingOptions.allowFragments) as! Dictionary<String, Any>
+        guard let dic = try? (JSONSerialization.jsonObject(with: data, options: JSONSerialization.ReadingOptions.allowFragments) as! Dictionary<String, Any>)
             else { return XCTFail() }
 
         XCTAssert(dic["typ"] as! String == "JWT")
@@ -34,7 +34,7 @@ class CompactJSONEncoderTests: XCTestCase {
         let encodedPayload = try? CompactJSONEncoder.shared.encodeToString(value: payload)
 
         let data = Data.init(base64Encoded: Base64Utils.base64StringWithPadding(encodedString: encodedPayload!))!
-        guard let dic = try? JSONSerialization.jsonObject(with: data, options: JSONSerialization.ReadingOptions.allowFragments) as! Dictionary<String, Any>
+        guard let dic = try? JSONSerialization.jsonObject(with: data, options: JSONSerialization.ReadingOptions.allowFragments) as? Dictionary<String, Any>
             else { return XCTFail() }
 
         XCTAssert(dic["iss"] as! String == "yufu")

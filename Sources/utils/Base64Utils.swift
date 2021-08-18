@@ -52,7 +52,7 @@ public class Base64Utils: NSObject {
 
         let base64 = input.replacingOccurrences(of: "-", with: "+")
             .replacingOccurrences(of: "_", with: "/") + ending
-
+        
         return Data(base64Encoded: base64)
     }
 

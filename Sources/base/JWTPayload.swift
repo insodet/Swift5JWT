@@ -16,7 +16,7 @@ public struct JWTPayload: Codable {
     // sub
     public var subject: String?
     // aud
-    public var audience: [String?]?
+    public var audience: String?
     // exp
     public var expiration: Int?
     // nbf
@@ -49,9 +49,9 @@ public struct JWTPayload: Codable {
         subject = try container.decodeIfPresent(String.self, forKey: DynamicKey(stringValue: JWTPayloadKeys.subject.rawValue))
         do {
             let aud = try container.decodeIfPresent(String.self, forKey: DynamicKey(stringValue: JWTPayloadKeys.audience.rawValue))
-            audience = [aud]
+            audience = aud
         } catch {
-            audience = try container.decodeIfPresent([String].self, forKey: DynamicKey(stringValue: JWTPayloadKeys.audience.rawValue))
+            audience = try container.decodeIfPresent(String.self, forKey: DynamicKey(stringValue: JWTPayloadKeys.audience.rawValue))
         }
         expiration = try container.decodeIfPresent(Int.self, forKey: DynamicKey(stringValue: JWTPayloadKeys.expiration.rawValue))
         notBefore = try container.decodeIfPresent(Int.self, forKey: DynamicKey(stringValue: JWTPayloadKeys.notBefore.rawValue))
@@ -152,13 +152,13 @@ public struct JWTPayload: Codable {
         }
     }
 
-    public func checkAudience(expected: [String?]) throws {
+    public func checkAudience(expected: String?) throws {
         if let aud = self.audience {
             if aud != expected {
                 throw InvalidTokenError.invalidAudience(aud)
             }
         } else {
-            throw InvalidTokenError.invalidAudience([nullValue])
+            throw InvalidTokenError.invalidAudience(nullValue)
         }
     }
 

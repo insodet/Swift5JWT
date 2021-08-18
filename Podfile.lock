@@ -1,12 +1,16 @@
 PODS:
-  - SwiftyCrypto (0.0.1)
+  - Swift5Crypto (0.0.3)
 
 DEPENDENCIES:
-  - SwiftyCrypto (~> 0.0.1)
+  - Swift5Crypto
+
+SPEC REPOS:
+  "https://rarus-team:v6EApasDvZZGfjxmvt9T@bitbucket.org/rarus_romanh/rarus-spec.git":
+    - Swift5Crypto
 
 SPEC CHECKSUMS:
-  SwiftyCrypto: ab59cdb153a7ca99b657fa8d9ebd2ebbd7694bbe
+  Swift5Crypto: 13c0e068d6e906867dab7265652797af45293029
 
-PODFILE CHECKSUM: 6e8bd3804eade050cbff41032b575974d43f381d
+PODFILE CHECKSUM: 951b9a05562b2e582b1dbb509277f60ad8ac8182
 
-COCOAPODS: 1.4.0
+COCOAPODS: 1.10.2

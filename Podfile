@@ -1,15 +1,15 @@
-source 'https://github.com/CocoaPods/Specs.git'
-platform :ios, '8.0'
+source 'https://rarus-team:v6EApasDvZZGfjxmvt9T@bitbucket.org/rarus_romanh/rarus-spec.git'
+
 use_frameworks!
 
 target 'SwiftyJWT' do
 
-pod 'SwiftyCrypto', '~> 0.0.1'
+pod 'Swift5Crypto'
 
 end
 
 target 'SwiftyJWTTests' do
 
-pod 'SwiftyCrypto', '~> 0.0.1'
+pod 'Swift5Crypto'
 
 end
