@@ -7,6 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		301549C428AD0DA10000A3AA /* Swift5JWTWA.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 301549BC28AD0DA10000A3AA /* Swift5JWTWA.framework */; };
+		301549CA28AD0DA10000A3AA /* Swift5JWT.h in Headers */ = {isa = PBXBuildFile; fileRef = 301549BE28AD0DA10000A3AA /* Swift5JWT.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		301549D128AD0F0F0000A3AA /* public.txt in Resources */ = {isa = PBXBuildFile; fileRef = B759B2C92010430000DDFB10 /* public.txt */; };
+		301549D228AD0F0F0000A3AA /* private.txt in Resources */ = {isa = PBXBuildFile; fileRef = B759B2C82010430000DDFB10 /* private.txt */; };
+		301549D328AD0F0F0000A3AA /* public.txt in Resources */ = {isa = PBXBuildFile; fileRef = B759B2C92010430000DDFB10 /* public.txt */; };
+		301549D428AD0F0F0000A3AA /* private.txt in Resources */ = {isa = PBXBuildFile; fileRef = B759B2C82010430000DDFB10 /* private.txt */; };
+		301549D528AD0F180000A3AA /* CompactJSONEncoderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B759B2BD200F4D4000DDFB10 /* CompactJSONEncoderTests.swift */; };
+		301549D628AD0F180000A3AA /* JWTHSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B20A1C20455E5B003BB264 /* JWTHSTests.swift */; };
+		301549D728AD0F180000A3AA /* JWTRSATests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B759B2CE2010701A00DDFB10 /* JWTRSATests.swift */; };
+		301549D828AD0F180000A3AA /* CompactJSONDecoderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B77E61BF20468CAA00C4220C /* CompactJSONDecoderTests.swift */; };
+		301549D928AD0F180000A3AA /* JWTPayloadTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7840549204F8AB2007B0DB3 /* JWTPayloadTests.swift */; };
+		301549DA28AD0F390000A3AA /* CompactJSONDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B20A1F204653D8003BB264 /* CompactJSONDecoder.swift */; };
+		301549DB28AD0F390000A3AA /* CompactJSONEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = B759B2B8200F4C0C00DDFB10 /* CompactJSONEncoder.swift */; };
+		301549DC28AD0F3A0000A3AA /* CompactJSONDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B20A1F204653D8003BB264 /* CompactJSONDecoder.swift */; };
+		301549DD28AD0F3A0000A3AA /* CompactJSONEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = B759B2B8200F4C0C00DDFB10 /* CompactJSONEncoder.swift */; };
+		301549DE28AD0F3F0000A3AA /* JWTAlgorithm.swift in Sources */ = {isa = PBXBuildFile; fileRef = B759B2AC200F378700DDFB10 /* JWTAlgorithm.swift */; };
+		301549DF28AD0F3F0000A3AA /* JWTAlgorithm.swift in Sources */ = {isa = PBXBuildFile; fileRef = B759B2AC200F378700DDFB10 /* JWTAlgorithm.swift */; };
+		301549E028AD0F470000A3AA /* InvalidTokenError.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B20A2220465474003BB264 /* InvalidTokenError.swift */; };
+		301549E128AD0F470000A3AA /* JWTPayload.swift in Sources */ = {isa = PBXBuildFile; fileRef = B759B2AF200F3EDF00DDFB10 /* JWTPayload.swift */; };
+		301549E228AD0F470000A3AA /* DynamicKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = B759B2BF200F905E00DDFB10 /* DynamicKey.swift */; };
+		301549E328AD0F470000A3AA /* EncodableValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7FF17C220162F1100030917 /* EncodableValue.swift */; };
+		301549E428AD0F470000A3AA /* JWTHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = B759B2A8200F372200DDFB10 /* JWTHeader.swift */; };
+		301549E528AD0F470000A3AA /* JWT.swift in Sources */ = {isa = PBXBuildFile; fileRef = B759B2D420107D5C00DDFB10 /* JWT.swift */; };
+		301549E628AD0F470000A3AA /* InvalidTokenError.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B20A2220465474003BB264 /* InvalidTokenError.swift */; };
+		301549E728AD0F470000A3AA /* JWTPayload.swift in Sources */ = {isa = PBXBuildFile; fileRef = B759B2AF200F3EDF00DDFB10 /* JWTPayload.swift */; };
+		301549E828AD0F470000A3AA /* DynamicKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = B759B2BF200F905E00DDFB10 /* DynamicKey.swift */; };
+		301549E928AD0F470000A3AA /* EncodableValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7FF17C220162F1100030917 /* EncodableValue.swift */; };
+		301549EA28AD0F470000A3AA /* JWTHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = B759B2A8200F372200DDFB10 /* JWTHeader.swift */; };
+		301549EB28AD0F470000A3AA /* JWT.swift in Sources */ = {isa = PBXBuildFile; fileRef = B759B2D420107D5C00DDFB10 /* JWT.swift */; };
+		301549EC28AD0F4D0000A3AA /* Base64Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = B759B2A4200F35A600DDFB10 /* Base64Utils.swift */; };
+		301549ED28AD0F4D0000A3AA /* Base64Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = B759B2A4200F35A600DDFB10 /* Base64Utils.swift */; };
+		39E787048A86C04D891FA679 /* Pods_Swift5JWTWA.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE825A57B94D8C3C647A2634 /* Pods_Swift5JWTWA.framework */; };
+		9564C094D35AB62547BE38E5 /* Pods_Swift5JWTTestsWA.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DDFB1663878C9900DC69839 /* Pods_Swift5JWTTestsWA.framework */; };
 		9987A1146E62C1E38580C8B0 /* Pods_SwiftyJWTTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E27E6811204926281DB1A2E0 /* Pods_SwiftyJWTTests.framework */; };
 		AE5083F01C93F6CD3194C101 /* Pods_SwiftyJWT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D709BCDDD3B61DA8E3C10B4 /* Pods_SwiftyJWT.framework */; };
 		B759B293200F351700DDFB10 /* SwiftyJWT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B759B289200F351700DDFB10 /* SwiftyJWT.framework */; };
@@ -43,6 +76,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		301549C528AD0DA10000A3AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B759B280200F351700DDFB10 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 301549BB28AD0DA10000A3AA;
+			remoteInfo = Swift5JWT;
+		};
 		B759B294200F351700DDFB10 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = B759B280200F351700DDFB10 /* Project object */;
@@ -65,10 +105,19 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		301549BC28AD0DA10000A3AA /* Swift5JWTWA.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Swift5JWTWA.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		301549BE28AD0DA10000A3AA /* Swift5JWT.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Swift5JWT.h; sourceTree = "<group>"; };
+		301549C328AD0DA10000A3AA /* Swift5JWTTestsWA.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Swift5JWTTestsWA.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		301549EE28AD14B00000A3AA /* Swift5JWT.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; path = Swift5JWT.podspec; sourceTree = "<group>"; };
 		37B2598FEAC9598D59AFC2DE /* Pods-SwiftyJWTTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftyJWTTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftyJWTTests/Pods-SwiftyJWTTests.release.xcconfig"; sourceTree = "<group>"; };
+		3CBA95D522EE8D359EC33263 /* Pods-Swift5JWTTestsWA.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swift5JWTTestsWA.release.xcconfig"; path = "Pods/Target Support Files/Pods-Swift5JWTTestsWA/Pods-Swift5JWTTestsWA.release.xcconfig"; sourceTree = "<group>"; };
 		3D709BCDDD3B61DA8E3C10B4 /* Pods_SwiftyJWT.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftyJWT.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		57AE6326569FBD9AA302F8F7 /* Pods-SwiftyJWTTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftyJWTTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftyJWTTests/Pods-SwiftyJWTTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6717D0B18C701565302032BE /* Pods-Swift5JWTWA.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swift5JWTWA.release.xcconfig"; path = "Pods/Target Support Files/Pods-Swift5JWTWA/Pods-Swift5JWTWA.release.xcconfig"; sourceTree = "<group>"; };
+		68E84C1C6D255B949D9D6F0A /* Pods-Swift5JWTTestsWA.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swift5JWTTestsWA.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Swift5JWTTestsWA/Pods-Swift5JWTTestsWA.debug.xcconfig"; sourceTree = "<group>"; };
+		8A8517F85B47636F729AC7CA /* Pods-Swift5JWTWA.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swift5JWTWA.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Swift5JWTWA/Pods-Swift5JWTWA.debug.xcconfig"; sourceTree = "<group>"; };
 		9420A2A60F3DDF93B3EB417C /* Pods-SwiftyJWT.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftyJWT.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftyJWT/Pods-SwiftyJWT.release.xcconfig"; sourceTree = "<group>"; };
+		9DDFB1663878C9900DC69839 /* Pods_Swift5JWTTestsWA.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Swift5JWTTestsWA.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B43748EAFD5B367ACF161339 /* Pods-SwiftyJWT.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftyJWT.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftyJWT/Pods-SwiftyJWT.debug.xcconfig"; sourceTree = "<group>"; };
 		B759B289200F351700DDFB10 /* SwiftyJWT.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftyJWT.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B759B28C200F351700DDFB10 /* SwiftyJWT.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwiftyJWT.h; sourceTree = "<group>"; };
@@ -93,9 +142,27 @@
 		B7B20A2220465474003BB264 /* InvalidTokenError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvalidTokenError.swift; sourceTree = "<group>"; };
 		B7FF17C220162F1100030917 /* EncodableValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EncodableValue.swift; sourceTree = "<group>"; };
 		E27E6811204926281DB1A2E0 /* Pods_SwiftyJWTTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftyJWTTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE825A57B94D8C3C647A2634 /* Pods_Swift5JWTWA.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Swift5JWTWA.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		301549B928AD0DA10000A3AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39E787048A86C04D891FA679 /* Pods_Swift5JWTWA.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		301549C028AD0DA10000A3AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				301549C428AD0DA10000A3AA /* Swift5JWTWA.framework in Frameworks */,
+				9564C094D35AB62547BE38E5 /* Pods_Swift5JWTTestsWA.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B759B285200F351700DDFB10 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -123,8 +190,27 @@
 				9420A2A60F3DDF93B3EB417C /* Pods-SwiftyJWT.release.xcconfig */,
 				57AE6326569FBD9AA302F8F7 /* Pods-SwiftyJWTTests.debug.xcconfig */,
 				37B2598FEAC9598D59AFC2DE /* Pods-SwiftyJWTTests.release.xcconfig */,
+				68E84C1C6D255B949D9D6F0A /* Pods-Swift5JWTTestsWA.debug.xcconfig */,
+				3CBA95D522EE8D359EC33263 /* Pods-Swift5JWTTestsWA.release.xcconfig */,
+				8A8517F85B47636F729AC7CA /* Pods-Swift5JWTWA.debug.xcconfig */,
+				6717D0B18C701565302032BE /* Pods-Swift5JWTWA.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		301549BD28AD0DA10000A3AA /* Swift5JWT */ = {
+			isa = PBXGroup;
+			children = (
+				301549BE28AD0DA10000A3AA /* Swift5JWT.h */,
+			);
+			path = Swift5JWT;
+			sourceTree = "<group>";
+		};
+		301549C728AD0DA10000A3AA /* Swift5JWTTests */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Swift5JWTTests;
 			sourceTree = "<group>";
 		};
 		636E1B4F2332B9C023B71A1C /* Frameworks */ = {
@@ -132,6 +218,8 @@
 			children = (
 				3D709BCDDD3B61DA8E3C10B4 /* Pods_SwiftyJWT.framework */,
 				E27E6811204926281DB1A2E0 /* Pods_SwiftyJWTTests.framework */,
+				9DDFB1663878C9900DC69839 /* Pods_Swift5JWTTestsWA.framework */,
+				EE825A57B94D8C3C647A2634 /* Pods_Swift5JWTWA.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -139,8 +227,11 @@
 		B759B27F200F351700DDFB10 = {
 			isa = PBXGroup;
 			children = (
+				301549EE28AD14B00000A3AA /* Swift5JWT.podspec */,
 				B7C99790205124F5006B91F1 /* Sources */,
 				B759B296200F351700DDFB10 /* SwiftyJWTTests */,
+				301549BD28AD0DA10000A3AA /* Swift5JWT */,
+				301549C728AD0DA10000A3AA /* Swift5JWTTests */,
 				B759B28A200F351700DDFB10 /* Products */,
 				1A8C78D7990387F4574083AD /* Pods */,
 				636E1B4F2332B9C023B71A1C /* Frameworks */,
@@ -152,6 +243,8 @@
 			children = (
 				B759B289200F351700DDFB10 /* SwiftyJWT.framework */,
 				B759B292200F351700DDFB10 /* SwiftyJWTTests.xctest */,
+				301549BC28AD0DA10000A3AA /* Swift5JWTWA.framework */,
+				301549C328AD0DA10000A3AA /* Swift5JWTTestsWA.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -225,6 +318,14 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		301549B728AD0DA10000A3AA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				301549CA28AD0DA10000A3AA /* Swift5JWT.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B759B286200F351700DDFB10 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -236,6 +337,45 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		301549BB28AD0DA10000A3AA /* Swift5JWTWA */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 301549CF28AD0DA10000A3AA /* Build configuration list for PBXNativeTarget "Swift5JWTWA" */;
+			buildPhases = (
+				102B87C6A8EEA9FCD9BBEB37 /* [CP] Check Pods Manifest.lock */,
+				301549B728AD0DA10000A3AA /* Headers */,
+				301549B828AD0DA10000A3AA /* Sources */,
+				301549B928AD0DA10000A3AA /* Frameworks */,
+				301549BA28AD0DA10000A3AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Swift5JWTWA;
+			productName = Swift5JWT;
+			productReference = 301549BC28AD0DA10000A3AA /* Swift5JWTWA.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		301549C228AD0DA10000A3AA /* Swift5JWTTestsWA */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 301549D028AD0DA10000A3AA /* Build configuration list for PBXNativeTarget "Swift5JWTTestsWA" */;
+			buildPhases = (
+				9BBBC15E491C7CE0EB132ED6 /* [CP] Check Pods Manifest.lock */,
+				301549BF28AD0DA10000A3AA /* Sources */,
+				301549C028AD0DA10000A3AA /* Frameworks */,
+				301549C128AD0DA10000A3AA /* Resources */,
+				5A214BC35D19405D60F500C3 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				301549C628AD0DA10000A3AA /* PBXTargetDependency */,
+			);
+			name = Swift5JWTTestsWA;
+			productName = Swift5JWTTests;
+			productReference = 301549C328AD0DA10000A3AA /* Swift5JWTTestsWA.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		B759B288200F351700DDFB10 /* SwiftyJWT */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = B759B29D200F351700DDFB10 /* Build configuration list for PBXNativeTarget "SwiftyJWT" */;
@@ -282,10 +422,18 @@
 		B759B280200F351700DDFB10 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0920;
+				LastSwiftUpdateCheck = 1340;
 				LastUpgradeCheck = 1250;
 				ORGANIZATIONNAME = Yufu;
 				TargetAttributes = {
+					301549BB28AD0DA10000A3AA = {
+						CreatedOnToolsVersion = 13.4.1;
+						ProvisioningStyle = Automatic;
+					};
+					301549C228AD0DA10000A3AA = {
+						CreatedOnToolsVersion = 13.4.1;
+						ProvisioningStyle = Automatic;
+					};
 					B759B288200F351700DDFB10 = {
 						CreatedOnToolsVersion = 9.2;
 						LastSwiftMigration = 1250;
@@ -314,11 +462,31 @@
 			targets = (
 				B759B288200F351700DDFB10 /* SwiftyJWT */,
 				B759B291200F351700DDFB10 /* SwiftyJWTTests */,
+				301549BB28AD0DA10000A3AA /* Swift5JWTWA */,
+				301549C228AD0DA10000A3AA /* Swift5JWTTestsWA */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		301549BA28AD0DA10000A3AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				301549D228AD0F0F0000A3AA /* private.txt in Resources */,
+				301549D128AD0F0F0000A3AA /* public.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		301549C128AD0DA10000A3AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				301549D428AD0F0F0000A3AA /* private.txt in Resources */,
+				301549D328AD0F0F0000A3AA /* public.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B759B287200F351700DDFB10 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -340,6 +508,46 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		102B87C6A8EEA9FCD9BBEB37 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Swift5JWTWA-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5A214BC35D19405D60F500C3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Swift5JWTTestsWA/Pods-Swift5JWTTestsWA-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Swift5Crypto-watchOS/Swift5Crypto.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Swift5Crypto.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Swift5JWTTestsWA/Pods-Swift5JWTTestsWA-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		5DC6DAFEEFFB4536732D78A1 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -365,7 +573,7 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-SwiftyJWTTests/Pods-SwiftyJWTTests-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/Swift5Crypto/Swift5Crypto.framework",
+				"${BUILT_PRODUCTS_DIR}/Swift5Crypto-iOS/Swift5Crypto.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
@@ -374,6 +582,28 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SwiftyJWTTests/Pods-SwiftyJWTTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9BBBC15E491C7CE0EB132ED6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Swift5JWTTestsWA-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		CCC3EC95E5F04C9646CD2157 /* [CP] Check Pods Manifest.lock */ = {
@@ -397,6 +627,45 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		301549B828AD0DA10000A3AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				301549E428AD0F470000A3AA /* JWTHeader.swift in Sources */,
+				301549E028AD0F470000A3AA /* InvalidTokenError.swift in Sources */,
+				301549E528AD0F470000A3AA /* JWT.swift in Sources */,
+				301549DE28AD0F3F0000A3AA /* JWTAlgorithm.swift in Sources */,
+				301549EC28AD0F4D0000A3AA /* Base64Utils.swift in Sources */,
+				301549DB28AD0F390000A3AA /* CompactJSONEncoder.swift in Sources */,
+				301549E228AD0F470000A3AA /* DynamicKey.swift in Sources */,
+				301549E128AD0F470000A3AA /* JWTPayload.swift in Sources */,
+				301549E328AD0F470000A3AA /* EncodableValue.swift in Sources */,
+				301549DA28AD0F390000A3AA /* CompactJSONDecoder.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		301549BF28AD0DA10000A3AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				301549EA28AD0F470000A3AA /* JWTHeader.swift in Sources */,
+				301549DC28AD0F3A0000A3AA /* CompactJSONDecoder.swift in Sources */,
+				301549ED28AD0F4D0000A3AA /* Base64Utils.swift in Sources */,
+				301549D528AD0F180000A3AA /* CompactJSONEncoderTests.swift in Sources */,
+				301549E628AD0F470000A3AA /* InvalidTokenError.swift in Sources */,
+				301549EB28AD0F470000A3AA /* JWT.swift in Sources */,
+				301549D728AD0F180000A3AA /* JWTRSATests.swift in Sources */,
+				301549DD28AD0F3A0000A3AA /* CompactJSONEncoder.swift in Sources */,
+				301549D628AD0F180000A3AA /* JWTHSTests.swift in Sources */,
+				301549E928AD0F470000A3AA /* EncodableValue.swift in Sources */,
+				301549E728AD0F470000A3AA /* JWTPayload.swift in Sources */,
+				301549DF28AD0F3F0000A3AA /* JWTAlgorithm.swift in Sources */,
+				301549E828AD0F470000A3AA /* DynamicKey.swift in Sources */,
+				301549D928AD0F180000A3AA /* JWTPayloadTests.swift in Sources */,
+				301549D828AD0F180000A3AA /* CompactJSONDecoderTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B759B284200F351700DDFB10 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -439,6 +708,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		301549C628AD0DA10000A3AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 301549BB28AD0DA10000A3AA /* Swift5JWTWA */;
+			targetProxy = 301549C528AD0DA10000A3AA /* PBXContainerItemProxy */;
+		};
 		B759B295200F351700DDFB10 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = B759B288200F351700DDFB10 /* SwiftyJWT */;
@@ -447,6 +721,118 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		301549CB28AD0DA10000A3AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A8517F85B47636F729AC7CA /* Pods-Swift5JWTWA.debug.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = PXFMPHZ9PD;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Sources/Info.plist;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2022 Yufu. All rights reserved.";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				OTHER_LDFLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rarus.Swift5JWT;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_INCLUDE_PATHS = "$(SRCROOT)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.0;
+			};
+			name = Debug;
+		};
+		301549CC28AD0DA10000A3AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6717D0B18C701565302032BE /* Pods-Swift5JWTWA.release.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = PXFMPHZ9PD;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Sources/Info.plist;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2022 Yufu. All rights reserved.";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MARKETING_VERSION = 1.0;
+				MTL_FAST_MATH = YES;
+				OTHER_LDFLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rarus.Swift5JWT;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_INCLUDE_PATHS = "$(SRCROOT)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.0;
+			};
+			name = Release;
+		};
+		301549CD28AD0DA10000A3AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68E84C1C6D255B949D9D6F0A /* Pods-Swift5JWTTestsWA.debug.xcconfig */;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PXFMPHZ9PD;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rarus.Swift5JWTTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.0;
+			};
+			name = Debug;
+		};
+		301549CE28AD0DA10000A3AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3CBA95D522EE8D359EC33263 /* Pods-Swift5JWTTestsWA.release.xcconfig */;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PXFMPHZ9PD;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rarus.Swift5JWTTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.0;
+			};
+			name = Release;
+		};
 		B759B29B200F351700DDFB10 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -664,6 +1050,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		301549CF28AD0DA10000A3AA /* Build configuration list for PBXNativeTarget "Swift5JWTWA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				301549CB28AD0DA10000A3AA /* Debug */,
+				301549CC28AD0DA10000A3AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		301549D028AD0DA10000A3AA /* Build configuration list for PBXNativeTarget "Swift5JWTTestsWA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				301549CD28AD0DA10000A3AA /* Debug */,
+				301549CE28AD0DA10000A3AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		B759B283200F351700DDFB10 /* Build configuration list for PBXProject "SwiftyJWT" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
